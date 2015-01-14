@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="startdvbviewer" onvolumeup="dovolumeup" onvolumedown="dovolumedown" onpause="dopause" onresume="doresume" onactivated="doactivate" scroll="vertical">
+  <row>
+    <button ontap="record" icon="record" />
+    <button ontap="cmd_play" icon="play" />
+    <button ontap="cmd_stop" icon="stop" />
+  </row>
+  <row>
+    <button ontap="rew" icon="rwd" />
+    <button ontap="play" icon="playpause" />
+    <button ontap="fwd" icon="ff" />
+  </row>
+  <row>
+    <button ontap="back" icon="back" />
+    <button ontap="up" icon="up" />
+    <button ontap="menue" icon="home" />
+  </row>
+  <row>
+    <button ontap="left" icon="left" />
+    <button ontap="enter" icon="select" />
+    <button ontap="right" icon="right" />
+  </row>
+  <row>
+    <button ontap="mute" icon="vmute" />
+    <button ontap="down" icon="down" />
+    <button ontap="max" icon="fullscreen" />
+  </row>
+  <row spacing="12">
+    <image ontap="red" image="dvbviewer_red.png" />
+    <image ontap="green" image="dvbviewer_green.png" />
+    <image ontap="yellow" image="dvbviewer_yellow.png" />
+    <image ontap="blue" image="dvbviewer_blue.png" />
+  </row>
+  <row spacing="0">
+    <button ontap="chanplus" text="chan+" />
+    <button ontap="chanminus" text="chan-" />
+    <button ontap="favplus" text="fav+" />
+    <button ontap="favminus" text="fav-" />
+  </row>
+  <row>
+    <button ontap="togglesort" text="sort" />
+    <button ontap="togglesortdirection" text="sort_dir." />
+    <button ontap="toggleview" text="view" />
+  </row>
+  <row>
+    <label text="--_numbers_--" />
+  </row>
+  <row>
+    <image ontap="num_1" image="dvbviewer_1.png" />
+    <image ontap="num_2" image="dvbviewer_2.png" />
+    <image ontap="num_3" image="dvbviewer_3.png" />
+  </row>
+  <row>
+    <image ontap="num_4" image="dvbviewer_4.png" />
+    <image ontap="num_5" image="dvbviewer_5.png" />
+    <image ontap="num_6" image="dvbviewer_6.png" />
+  </row>
+  <row>
+    <image ontap="num_7" image="dvbviewer_7.png" />
+    <image ontap="num_8" image="dvbviewer_8.png" />
+    <image ontap="num_9" image="dvbviewer_9.png" />
+  </row>
+  <row>
+    <image ontap="num_0" image="dvbviewer_0.png" />
+  </row>
+  <row>
+    <label text="--_channels_--" />
+  </row>
+  <row spacing="5">
+    <image ontap="show_channels" image="dvbviewer_kanalliste.png" />
+    <image ontap="show_favourites" image="dvbviewer_favoriten.png" />
+  </row>
+  <row>
+    <label text="--_epg_--" />
+  </row>
+  <row spacing="5">
+    <image ontap="show_now" image="dvbviewer_epg_jetzt.png" />
+    <image ontap="show_epg" image="dvbviewer_epg.png" />
+    <image ontap="show_timeline" image="dvbviewer_epg_timeline.png" />
+    <image ontap="show_miniepg" image="dvbviewer_epg_mini.png" />
+  </row>
+  <row spacing="0">
+    <label text="--_info_--" />
+  </row>
+  <row spacing="5">
+    <image ontap="show_news" image="dvbviewer_news.png" />
+    <image ontap="show_weather" image="dvbviewer_wetter.png" />
+    <image ontap="show_teletext" image="dvbviewer_text.png" />
+    <image ontap="show_htpc" image="dvbviewer_htpc.png" />
+  </row>
+  <row spacing="0">
+    <label text="--_list_and_files_--" />
+  </row>
+  <row spacing="5">
+    <image ontap="show_pictures" image="dvbviewer_bilder.png" />
+    <image ontap="show_music" image="dvbviewer_musik.png" />
+    <image ontap="show_video" image="dvbviewer_video.png" />
+    <image ontap="show_computer" image="dvbviewer_arbeitsplatz.png" />
+    <image ontap="show_recordings" image="dvbviewer_aufnahmen.png" />
+  </row>
+  <row spacing="5">
+    <image ontap="show_timer" image="dvbviewer_timer.png" />
+    <image ontap="show_music_playlist" image="dvbviewer_playlist_musik.png" />
+    <image ontap="show_video_playlist" image="dvbviewer_playlist_video.png" />
+    <image ontap="show_playlist" image="dvbviewer_playlist.png" />
+  </row>
+  <row>
+    <label text="--_zoom_--" />
+  </row>
+  <row spacing="6">
+    <image ontap="zoomlevel_standard" image="dvbviewer_zoom.png" />
+    <image ontap="zoomlevel_0" image="dvbviewer_zoom1.png" />
+    <image ontap="zoomlevel_1" image="dvbviewer_zoom2.png" />
+    <image ontap="zoomlevel_2" image="dvbviewer_zoom3.png" />
+    <image ontap="zoomlevel_3" image="dvbviewer_zoom4.png" />
+  </row>
+  <row>
+    <label text="--_tools_--" />
+  </row>
+  <row>
+    <button ontap="addbookmark" text="add_bookmark" />
+    <button ontap="dvdmenu" text="dvd_menue" />
+    <button ontap="ejectcd" text="eject_cd" />
+  </row>
+  <row>
+    <button ontap="stopdvbviewer" text="close" />
+    <button ontap="lastchannel" text="last_channel" />
+    <button ontap="aspectratio" text="aspect" />
+  </row>
+  <row>
+    <button ontap="audiochannel" text="audio_channel" />
+    <button ontap="audioab" text="audio_a/b" />
+    <button ontap="videoab" text="video_a/b" />
+  </row>
+  <row>
+    <button ontap="ontop" text="on_top" />
+    <button ontap="shaderlast" text="last_shader" />
+    <button ontap="shadernone" text="no_shader" />
+  </row>
+  <row>
+    <button ontap="portalselect" text="portal_select" />
+    <button ontap="zoomup" text="zoom_+" />
+    <button ontap="zoomdown" text="zoom_-" />
+  </row>
+  <row>
+    <button ontap="brightnessdown" text="brightness_-" />
+    <button ontap="brightnessup" text="brightness_+" />
+    <button ontap="osdclock" text="clock" />
+  </row>
+  <row>
+    <button ontap="rebuildgraph" text="rebuild_graph" />
+    <button ontap="keeptimeshiftfile" text="keep_timeshift_file" />
+    <button ontap="camwindow" text="cam_menue" />
+  </row>
+  <row>
+    <button ontap="openserviceurl" text="open_record_service" />
+    <button ontap="@wol" text="wol" />
+  </row>
+  <row>
+    <button ontap="standby" text="standby" />
+    <button ontap="shutdown" text="shutdown" />
+    <button ontap="hibernate" text="hibernate" />
+  </row>
+  <row>
+    <label text="custom_remote_by_styletronix.net" />
+  </row>
+  <row>
+    <label text="version_1.5.5" />
+  </row>
+</layout>
