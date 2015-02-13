@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row weight="3">
+		<label text="Profiles"/>
+	</row>
+	<row weight="20">
+		<list id="profiles" ontap="setprofile"/>
+	</row>
+	<row weight="4">
+		<button id="on" ontap="setstatus,on" text="Turn on" color="green" />
+		<button id="off" ontap="setstatus,off" text="Turn off" color="red" />
+    </row>
+</layout>
