@@ -14,7 +14,7 @@ local s;
 local buf;
 local profiles;
 local profiles_selected;
-local connected = false;
+local tid;
 
 events.focus = function()
 	if is_empty(settings.ip) then
@@ -42,8 +42,8 @@ events.focus = function()
 end
 
 events.blur = function()
+	timer.cancel(tid);
 	s:close();
-	connected = false;
 end
 
 function _send (command)
@@ -52,16 +52,14 @@ function _send (command)
 end
 
 function connected ()
-	connected = true;
-	
 	print("SOCKET connected, sending apikey: " .. settings.apikey);
 	_send("apikey:" .. settings.apikey);
 	_send("lock");
 
 	request_update();
 
-	timer.interval(function()
-		if connected == true then
+	tid = timer.interval(function()
+		if s:connected() then
 			request_update();
 		end
 	end, 500000);
@@ -70,12 +68,9 @@ end
 function closed ()
 	print("SOCKET closed");
 	update_show_single("Disconnected");
-	connected = false;
-	s:connect(settings.ip, settings.port);
 end
 
 function data (chunk)
-	connected = true;
 	buf:write(chunk);
 	while true do
 		local line = buf:readline();
