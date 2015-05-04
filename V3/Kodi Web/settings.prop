@@ -1,0 +1,7 @@
+host: localhost
+kodiPath: %programfiles(x86)%\\Kodi\\Kodi.exe
+pathForThumbnail: c:\\Users\\Jaufre\\Documents\\kodi
+playerId: none
+port: 8080
+status: stop
+trace: 0

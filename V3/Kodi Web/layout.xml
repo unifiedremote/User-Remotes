@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch" color="blue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../layout.xsd">
+	<tabs>
+		<tab text="Main">
+			<row weight="wrap">
+				<label id="title" text="[Connecting...]"/>
+			</row>
+			<row>
+				<button image="icon/home.png" ontap="home"/>
+				<button image="icon/menu.png" ontap="menu"/>
+				<button image="icon/info.png" ontap="info"/>
+				<button image="icon/power.png" ontap="power"/>
+			</row>
+			<row>
+				<button icon="vmute" ontap="volume_mute"/>
+				<button icon="vdown" ontap="volume_down"/>
+				<button icon="vup" ontap="volume_up"/>
+			</row>
+			<row>
+				<button/>
+				<button icon="up" ontap="up"/>
+				<button/>
+			</row>
+			<row>
+				<button icon="left" ontap="left"/>
+				<button icon="select" ontap="select"/>
+				<button icon="right" ontap="right"/>
+			</row>
+			<row>
+				<button icon="back" ontap="back"/>
+				<button icon="down" ontap="down"/>
+				<button/>
+			</row>
+		</tab>
+		<tab text="Playback">
+			<row weight="8">
+				<image id="thumbnail" />
+			</row>
+			<row>
+				<button icon="playpause" ontap="play_pause"/>
+				<button icon="stop" ontap="stop"/>
+				<button image="icon/audio.png" ontap="SwitchAudio" />
+				<button image="icon/subtitle.png" ontap="SwitchSubtitle" />
+			</row>
+			<row>
+				<slider id="seeking" progressmax="100" weight="2"/>
+				<button id="timeProgress" ontap="TimeProgress"/>
+			</row>
+		</tab>
+		<tab text="Source">
+			<row weight="8">
+				<list id="listSource" ontap="SourceSelect">
+					<item text="Loading..."/>
+				</list>
+			</row>
+			<row>
+				<button icon="backspace" ontap="Clean"/>
+				<button icon="refresh" ontap="Refresh"/>
+			</row>
+		</tab>
+		<tab text="Library">
+			<row>
+				<list id="list" ontap="library_select">
+					<item text="Loading..."/>
+				</list>
+			</row>
+			<row weight="wrap">
+				<button icon="back" ontap="library_back"/>
+				<button icon="refresh" ontap="library_refresh"/>
+			</row>
+		</tab>
+	</tabs>
+</layout>
