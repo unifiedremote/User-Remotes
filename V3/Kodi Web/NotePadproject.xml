@@ -1,0 +1,31 @@
+<NotepadPlus>
+    <Project name="Kodi">
+        <Folder name="icon">
+            <File name="icon\audio.png" />
+            <File name="icon\exit.png" />
+            <File name="icon\home.png" />
+            <File name="icon\info.png" />
+            <File name="icon\menu.png" />
+            <File name="icon\power.png" />
+            <File name="icon\reboot.png" />
+            <File name="icon\subtitle.png" />
+            <File name="icon\Thumbs.db" />
+        </Folder>
+        <Folder name="script">
+            <File name="script\core.lua" />
+            <File name="script\event.lua" />
+            <File name="script\library.lua" />
+            <File name="script\main.lua" />
+            <File name="script\playback.lua" />
+            <File name="script\source.lua" />
+        </Folder>
+        <File name="icon.png" />
+        <File name="JSON-RPC API Examples - Kodi.html" />
+        <File name="JSON-RPC API v6 - Kodi.html" />
+        <File name="layout.xml" />
+        <File name="meta (Copie en conflit de pc-ict7 2015-01-22).prop" />
+        <File name="meta.prop" />
+        <File name="remote.lua" />
+        <File name="settings.prop" />
+    </Project>
+</NotepadPlus>
