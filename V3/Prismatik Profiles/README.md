@@ -19,5 +19,5 @@ Simple remote to control the Prismatik Profiles over TCP. I built this to annoy 
  *  Manually switch colors
 
 ## Screenshots
-<img src="screen1.png" alt="Screenshot 1" width="400">
-<img src="screen2.png" alt="Screenshot 2" width="400">
+<img src="screen1.jpg" alt="Screenshot 1" width="400">
+<img src="screen2.jpg" alt="Screenshot 2" width="400">
