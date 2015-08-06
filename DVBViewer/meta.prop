@@ -1,5 +1,6 @@
 meta.name: DVBViewer EN
 meta.author: Styletronix
-meta.icon: DVBViewer.png
 meta.description: DVBViewer English
 meta.platform: windows
+meta.url: https://www.styletronix.net/
+meta.tags: audio/video
