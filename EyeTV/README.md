@@ -2,25 +2,13 @@
 EyeTV for Mac OS X
 
 ## Features
-*  Channel down
-*  Channel up
+*  Switch channel (up, down)
 *  Close Window
-*  Fast basck
-*  Fast forward
-*  Jump backward
-*  Jump forward
-*  Lower volume
-*  Mute volume
-*  Navigate back
-*  Navigate down
-*  Navigate left
-*  Navigate right
-*  Navigate up
-*  Next item
-*  Open menu
-*  Pause playback
-*  Raise volume
-*  Select current item
+*  Seek fast (forward, backward)
+*  Jump (backward, forward)
+*  Volume (lower, raise, mute)
+*  Navigate (up, down, left, right)
+*  Toogle playback (play/pause)
 *  Toggle fullscreen
 *  Zoom
 
