@@ -2,22 +2,14 @@
 Media Player Classic Black Edition Remote.
 
 ## Features
-*  Forward/Rewind track
-*  Fullscreen
-*  Go to Home
-*  Jump Back 5s
-*  Jump Forward 5s
-*  Launch MPCBE application
-*  Move back
-*  Move up/down/left/right
-*  Mute Volume
-*  Next/Prevous track
-*  Open chapters
-*  Open title
-*  Play/Pause/Stop track
-*  Run command
-*  Select
-*  Volume up/down
+*  Playback (play, pause, stop)
+*  Track (next, previous)
+*  Volume (up, down, mute)
+*  Navigate (up, down, left, right, select, back, home)
+*  Seek (forward, rewind)
+*  Jump 5s (back, forward)
+*  Open (chapters, titles)
+*  Toogle Fullscreen
 
 ## Screenshots
 <img src="screen-tab1.png" width="200" />
