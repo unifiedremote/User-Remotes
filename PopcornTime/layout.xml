@@ -23,7 +23,7 @@
 				<row>
 					<grid>
 						<!-- Arrow controls -->
-						<button weight="5" icon="search" ontap="search" />
+						<button weight="3" icon="search" ontap="search" />
 						<button weight="1" text="clear search" ontap="clearsearch" />
 						<button weight="1" text="Change Quality" ontap="changequality" />
 						<!-- End of Arrow Controls -->
