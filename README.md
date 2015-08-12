@@ -1,7 +1,7 @@
 User Submitted Remotes
 ===
 
-Download remotes submitted by users. If you'd like to add a new remote, just create a pull request. Alternatively you can contact us and we can add it for you.
+Download remotes submitted by users. 
 
  * [Beamer](https://github.com/unifiedremote/Beamer-Remote)
  * [DVBViewer](https://github.com/unifiedremote/DVBViewer-Remote)
@@ -17,3 +17,8 @@ Find More Remotes
 ===
 Find more remotes on our website  
  * [unifiedremote.com/remotes](https://www.unifiedremote.com/remotes)
+
+
+Add Your Remote
+===
+If you'd like to add a new remote, just create your own Github repository including your remote and submit a [request](https://www.unifiedremote.com/remotes/submit) on your new website. 
