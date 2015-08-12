@@ -15,7 +15,6 @@ Download remotes submitted by users.
 
 Find More Remotes
 ===
-Find more remotes on our website  
  * [unifiedremote.com/remotes](https://www.unifiedremote.com/remotes)
 
 
