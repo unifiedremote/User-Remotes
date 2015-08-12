@@ -12,3 +12,8 @@ Download remotes submitted by users. If you'd like to add a new remote, just cre
  * [PopcornTime](https://github.com/unifiedremote/PopcornTime-Remote)
  * [Porthole](https://github.com/DangerCove/unified-remote-porthole)
  * [Prismatik Profiles](https://github.com/tkhduracell/lua_prismatik_remote)
+
+Find More Remotes
+===
+Find more remotes on our website  
+ * [unifiedremote.com/remotes](https://www.unifiedremote.com/remotes)
